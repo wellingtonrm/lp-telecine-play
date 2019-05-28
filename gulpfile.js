@@ -1,12 +1,9 @@
-/*global require*/
-(function (r) {
-    "use strict";
-    var scss = r("gulp-scss");
-    var gulp = r("gulp");
+const gulp         = require('gulp');
+var   sass         = require('gulp-sass');
+var   autoprefixer = require('gulp-autoprefixer');
 
-    gulp.task("scss", function () {
-        gulp.src("src/assets/scss/**/*.scss")
-        .pipe(scss({ "bundleExec": true }))
-        .pipe(gulp.dest("src/assets/css"));
-    });
-}(require));
+gulp.task('sass', ()=>
+ gulp.src('./src/assets/scss/*.scss')
+ .pipe(sass())
+ .pipe(gulp.dist()'.')
+);
