@@ -1,4 +1,4 @@
-$background : #666;
+$background-body: #666;
 
 html{
 		width: 100%;
@@ -20,12 +20,12 @@ li {list-style:none;}
 
 
 
-@mixin mobile{
+
 	@media only screen and (min-width : 480px) {
 
 		body{
-			background: #666;
+			background: $background-body;
 		}
 
-	}
+	
 }
