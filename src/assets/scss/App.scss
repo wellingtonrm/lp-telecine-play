@@ -1,18 +1,18 @@
-/*======================
-     Style App.css
-========================*/
+/*=======================================
+     Style App.scss compilado App.css
+=========================================*/
 @import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
-$Heebo: 'Heebo', sans-serif; 
+$FontHeebo: 'Heebo', sans-serif; 
 
 $background-body:#ced6e0;
-$preto: #222f3e;
-$branco: #fff;
-$vermelho:#ff3838;
+$preto:     #222f3e;
+$branco:    #fff;
+$vermelho  :#EA2027;
 $cinzamedio:#8395a7;
-
-$mobile: 780px;
-
-$logo: '../img/logo.png';
+$desktop:   1000px;
+$mobile:    580px;
+$ipad:      1000px;
+$logo:      '../img/logo.png';
   
 
 *{
@@ -38,35 +38,44 @@ li {list-style:none;}
 
 img {max-width:100%; }
 
-	@media only screen and (max-width : $mobile) {
+	@media only screen and (max-width: $mobile) {
 	
 	#App{
 		width: 100%;
+			height: 100%;
+		
+	}
+	 .BX-1{
+		 width: 100%;
 		height: 100%;
 		background-image: linear-gradient(to bottom, $background-body, $branco);
 		padding-top: 40px;
-	}
+	 }
+	 .BX-2{
+		  width: 100%;
+		height: 100%;
+		background: linear-gradient(to bottom, transparent 50%, $preto 50%);
+	 }
   .logo{
 		width: 100%;
 		height: 80px;
-		padding-top: 80px;
 		background:url($logo);
     background-repeat: no-repeat;
     background-size: 45%;
     background-position: center;
 	}
 	h2{
-		font-family: $Heebo;
-		font-size: 40px;
+		font-family: $FontHeebo;
+		font-size: 35px;
 		text-align: center;
 		padding: 20px;
-		padding-top: 60px;
+	
 	}
   h2 span{
   color:$vermelho;
 	}
 	 h3{
-		font-family: $Heebo;
+		font-family: $FontHeebo;
 		font-size: 20px;
 		width: 80%;
 		text-align: center;
@@ -80,9 +89,10 @@ img {max-width:100%; }
 		 padding-top: 20px;
 		 padding-bottom: 20px;
 		 border-radius: 50px;
-		 border: none;
-		 margin: 15%;
-		 font-family: $Heebo;
+		 border:none!important;
+		 margin-left: 15%;
+		 margin-top: 15px;
+		 font-family: $FontHeebo;
 		 background-color:$vermelho;
 		 color:$branco;
 		 box-shadow: 0px 2px 4px $cinzamedio;
@@ -90,3 +100,56 @@ img {max-width:100%; }
 	
 }
 
+	@media only screen and (max-width: $ipad) {
+		#App {
+    width: 100%;
+    height: 100%; }
+  .BX-1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ced6e0, #fff);
+    padding-top: 40px; }
+  .BX-2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 50%, #222f3e 50%); }
+  .logo {
+    width: 100%;
+    height: 80px;
+    background: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center; }
+  h2 {
+    font-family: "Heebo", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px; }
+  h2 span {
+    color: #EA2027; }
+  h3 {
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto; }
+  .btn-assinar {
+    width: 70%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    border: none !important;
+    margin-left: 15%;
+    margin-top: 15px;
+    font-family: "Heebo", sans-serif;
+    background-color: #EA2027;
+    color: #fff;
+    box-shadow: 0px 2px 4px #8395a7; } }
+
+
+	
+	@media only screen and (min-width: $desktop) {
+
+	}
