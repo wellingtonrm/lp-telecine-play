@@ -1,26 +1,92 @@
-$background-body:#bdc3c7;
-$Primary: #222f3e;
+/*======================
+     Style App.css
+========================*/
+@import url(https://fonts.googleapis.com/css?family=Heebo&display=swap);
+$Heebo: 'Heebo', sans-serif; 
 
-html{
+$background-body:#ced6e0;
+$preto: #222f3e;
+$branco: #fff;
+$vermelho:#ff3838;
+$cinzamedio:#8395a7;
+
+$mobile: 780px;
+
+$logo: '../img/logo.png';
+  
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+html{ 
 		width: 100%;
 		height:100%;
 	} 
 body{
 		width: 100%;
 		height: 100%;
+		cursor: default;
     }
-    
+#root{
+	width: 100%;
+	height: 100%;
+}   
 a {text-decoration:none; }
 ul {list-style:none; padding: 0px; margin: 0px;}
-li {list-style:none;}
+li {list-style:none;}   
 
 img {max-width:100%; }
 
-	@media only screen and (max-width : 780px) {
+	@media only screen and (max-width : $mobile) {
 	
-  .header{
-		background-image: linear-gradient(to bottom, #2980b9 10%, #01579B 30%);
+	#App{
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(to bottom, $background-body, $branco);
+		padding-top: 40px;
 	}
+  .logo{
+		width: 100%;
+		height: 80px;
+		padding-top: 80px;
+		background:url($logo);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+	}
+	h2{
+		font-family: $Heebo;
+		font-size: 40px;
+		text-align: center;
+		padding: 20px;
+		padding-top: 60px;
+	}
+  h2 span{
+  color:$vermelho;
+	}
+	 h3{
+		font-family: $Heebo;
+		font-size: 20px;
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+
+	 }
+	 .btn-assinar{
+		 width: 70%;
+		 padding-left: 40px;
+		 padding-right: 40px;
+		 padding-top: 20px;
+		 padding-bottom: 20px;
+		 border-radius: 50px;
+		 border: none;
+		 margin: 15%;
+		 font-family: $Heebo;
+		 background-color:$vermelho;
+		 color:$branco;
+		 box-shadow: 0px 2px 4px $cinzamedio;
+	 }
 	
 }
 
