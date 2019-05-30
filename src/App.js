@@ -57,12 +57,14 @@ class App extends Component {
             </div>
             <h2>O Melhor catálago. Em todas as telas.</h2>
             <div className="img-dispositivo"></div>
-            <h6 className="txt-titulo1">Assista na TV</h6>
-            <div className="lista-li">
-              <div className="row">
-                <div className="col-6"><i className="fas fa-check"></i> Smarts Tvs</div>
-                <div className="col-6"><i className="fas fa-check"></i> Chromecast</div>
-                <div className="col-6"><i className="fas fa-check"></i> Xbox One</div>
+            <div className="formabx">
+              <h6 className="txt-titulo1">Assista na TV</h6>
+              <div className="lista-li">
+                <div className="row">
+                  <div className="col-6"><i className="fas fa-check"></i> Smarts Tvs</div>
+                  <div className="col-6"><i className="fas fa-check"></i> Chromecast</div>
+                  <div className="col-6"><i className="fas fa-check"></i> Xbox One</div>
+                </div>
               </div>
             </div>
           </div>
@@ -73,6 +75,7 @@ class App extends Component {
           ======================================================================= */}
           <div className="header nonedesk">
             <div className="img-dispositivo2"></div>
+            <div className="formabx">
             <h6 className="txt-titulo1">Ou onde quiser</h6>
             <div className="lista-li">
               <div className="row">
@@ -82,19 +85,20 @@ class App extends Component {
               </div>
             </div>
           </div>
+          </div>
         </section>
-        <footer>
-          {/*====================================================================
+      <footer>
+        {/*====================================================================
                                   CONTEUDO MOBILE E TABLET 
           ======================================================================= */}
-          <div className="header nonedesk">
-            <div className="logo"></div>
-            <p className="ajuda">FICOU COM ALGUMA DUVIDA?</p>
-            <a className="link-ajuda" href="https://ajuda.telecineplay.com.br/">ACESSE NOSSA AJUDA</a>
-          </div>
+        <div className="header nonedesk">
+          <div className="logo"></div>
+          <p className="ajuda">FICOU COM ALGUMA DUVIDA?</p>
+          <a className="link-ajuda" href="https://ajuda.telecineplay.com.br/">ACESSE NOSSA AJUDA</a>
+        </div>
 
-        </footer>
-      </div>
+      </footer>
+      </div >
     );
   }
 }
