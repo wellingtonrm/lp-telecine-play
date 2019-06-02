@@ -43,7 +43,7 @@ const Desktop = props => {
                         <div className="col-7">
                             <h2>O Melhor catálago. Em todas as telas.</h2>
                             <h6 className="txt-titulo1">Assista na TV</h6>
-                            <div className="row">
+                            <div className="row st-ico">
                                 <div className="col-6"><i className="fas fa-check"></i> Smarts Tvs</div>
                                 <div className="col-6"><i className="fas fa-check"></i> Chromecast</div>
                                 <div className="col-6"><i className="fas fa-check"></i> Xbox One</div>
