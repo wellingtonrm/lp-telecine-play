@@ -625,6 +625,7 @@ img {max-width:100%; }
 		height: auto;
 		background: $bktelecine;
 		padding-top: 300px;
+		padding-bottom: 40px;
 	 }
 	 .box-capa-filmes{
 		 width: 96%;
@@ -708,12 +709,14 @@ img {max-width:100%; }
 		 font-family: $FontHeebo;
 		 color:$cinzamedio;
 		 text-align: left;
+		 margin-top: 20px;
 	 }
 	  .box-m{
-		 padding-left: 100px;
+		 padding-left: 80px;
 		 padding-right: 180px;
 		 background-color: $vermelhoCine;
-		 padding-top: 80px;
+		 padding-top: 60px;
+		 padding-bottom: 60px;
 		 border-radius: 10px;
 		 box-shadow: 0px 3px 5px #333;
 	 }
@@ -721,12 +724,16 @@ img {max-width:100%; }
      font-size: 17px;
 		 font-family: $FontHeebo;
 		 color:$cinzamedio;
-		 padding:20px
+		
 	 }.st-ico .col-6{
 		 margin-top: 20px;
 	 }
 	 .st-ico .fas{
 		 color: #27ae60;
+	 }
+	 footer{
+    background-color: $background-body;
+		height: 80px;
 	 }
 	 
 	}

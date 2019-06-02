@@ -68,6 +68,9 @@ const Desktop = props => {
                     </div>
                 </div>
             </section>
+            <footer>
+                
+            </footer>
         </div>
     );
 }

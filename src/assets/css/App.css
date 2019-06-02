@@ -504,7 +504,8 @@ img {
     width: 100%;
     height: auto;
     background: #3A3A48;
-    padding-top: 300px; }
+    padding-top: 300px;
+    padding-bottom: 40px; }
   .box-capa-filmes {
     width: 96%;
     height: 230px;
@@ -569,20 +570,24 @@ img {
     font-size: 25px;
     font-family: "Heebo", sans-serif;
     color: #8395a7;
-    text-align: left; }
+    text-align: left;
+    margin-top: 20px; }
   .box-m {
-    padding-left: 100px;
+    padding-left: 80px;
     padding-right: 180px;
     background-color: #D11432;
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     border-radius: 10px;
     box-shadow: 0px 3px 5px #333; }
   .st-ico {
     font-size: 17px;
     font-family: "Heebo", sans-serif;
-    color: #8395a7;
-    padding: 20px; }
+    color: #8395a7; }
   .st-ico .col-6 {
     margin-top: 20px; }
   .st-ico .fas {
-    color: #27ae60; } }
+    color: #27ae60; }
+  footer {
+    background-color: #ced6e0;
+    height: 80px; } }
