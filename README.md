@@ -6,7 +6,9 @@ Esse projeto é constituido pera simplesmenteteste de Front-End usando ReactJS S
 |-----------------------------------------------------|-------------------------------------------------------------------|
 |     ReactJS                                        |     ![](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)                                                      |
 |      Sass                                          | ![](https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)       |
+|      Gulp                                         | ![](https://devstickers.com/assets/img/pro/e1bm.png)       |
 
+Em produção URL
 ```bash 
 URL https://telecine-lp.herokuapp.com/
 ```
