@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    $('.multiple-itemsDesk').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
     $('.multiple-items').slick({
         
             centerMode: true,

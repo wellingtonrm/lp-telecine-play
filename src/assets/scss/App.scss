@@ -480,11 +480,7 @@ img {max-width:100%; }
 		background-image: linear-gradient(to bottom, $background-body, $branco);
 		
 	 }
-	 .BX-2{
-		width: 100%;
-		height: 100%;
-		background: $bktelecine;
-	 }
+	
   .logo{ 
 		width: 100%;
 		height: 100px;
@@ -624,6 +620,84 @@ img {max-width:100%; }
 	
 		
 	 }
+	  .BX-2{
+		width: 100%;
+		height: auto;
+		background: $bktelecine;
+		padding-top: 300px;
+	 }
+	 .box-capa-filmes{
+		 width: 96%;
+		 height: 230px;
+		 padding-top: 8px;
+		 padding-bottom: 10px;
+		 padding-left: 11px;
+		 position: absolute;
+		 top: 650px;
+		background-image: linear-gradient(to bottom, #681313, $vermelhoCine);
+		 left: 2%; 
+		 border-radius: 10px;
+		
+	 }
+	 .multiple-itemsDesk{
+    width: 100%;
+		 height: 215px;
+	 }
 
+   .bn2{
+	 width: 180px;
+	 height: 215px;
+	 }
+	 .ConteudoSection{
+		 margin-top: 50px;
+		 height: auto;
+		 padding-left: 50px;
+		 padding-right: 50px;
+	 }
+	 .tb-text{
+		 width: 96%;
+		 height: 80px;
+		 margin: 0 auto;
+		 
+		 display: flex;
+	 }
+	 .tb-text h6{
+		 color:$cinzamedio;
+		 font-family: $FontHeebo;
+		 font-size: 25px;
+	 }
+	 .tb-text hr{
+	 color:$cinzamedio;
+	 background: #636e72;
+	 height: 1px;
+	 width: 90%;
+	 margin-inline-start: 30px;
+	 }
+	 .row h2{
+		 font-size: 35px;
+		 font-family: $FontHeebo;
+		 color:$cinzamedio;
+		 text-align: left;
+		 padding: 0;
+
+	 }
+	 .img-smart{
+		width:100%;
+		height:300px;
+		background:url($telas);
+    background-repeat: no-repeat;
+    background-size: 90%;
+		background-position: top;
+		
+	 }
+	 .txt-titulo1{
+		 font-size: 25px;
+		 font-family: $FontHeebo;
+		 color:$cinzamedio;
+		 text-align: left;
+	 }
+	  .box-m{
+		 padding-left: 100px;
+	 }
 	 
 	}
