@@ -69,7 +69,15 @@ const Desktop = props => {
                 </div>
             </section>
             <footer>
-                
+                <div className="row">
+                    <div className="col-6">
+                        <div className="logofooter"></div>
+                    </div>
+                    <div className="col-6">
+                        <p className="ajuda">FICOU COM ALGUMA DUVIDA?</p>
+                        <a className="link-ajuda" href="https://ajuda.telecineplay.com.br/">ACESSE NOSSA AJUDA</a>
+                    </div>
+                </div>
             </footer>
         </div>
     );

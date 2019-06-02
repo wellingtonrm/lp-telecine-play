@@ -733,7 +733,29 @@ img {max-width:100%; }
 	 }
 	 footer{
     background-color: $background-body;
-		height: 80px;
+		height: 150px;
+		padding-top: 50px;
+		padding-left: 40px;
+		padding-right: 40px;
+	 }
+	 .logofooter{
+		 width: 150px;
+		height: 60px;
+		background:url($logomobile);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+	 }
+	 footer p{
+		 font-size: 17px;
+		 font-family: $FontHeebo;
+		 color:$bktelecine;
+		
+	 }
+	 footer a{
+		 font-size: 17px;
+		 font-family: $FontHeebo;
+		 color:$cinzamedio;
 	 }
 	 
 	}
