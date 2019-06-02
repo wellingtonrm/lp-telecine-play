@@ -656,7 +656,7 @@ img {max-width:100%; }
 	 }
 	 .tb-text{
 		 width: 96%;
-		 height: 80px;
+		 height: 50px;
 		 margin: 0 auto;
 		 
 		 display: flex;
@@ -673,20 +673,33 @@ img {max-width:100%; }
 	 width: 90%;
 	 margin-inline-start: 30px;
 	 }
-	 .row h2{
+	 .ConteudoSection h2{
 		 font-size: 35px;
 		 font-family: $FontHeebo;
 		 color:$cinzamedio;
 		 text-align: left;
 		 padding: 0;
+		  padding-left: 25px;
 
+	 }
+	 .box-telasapp{
+		 padding-top: 50px;
 	 }
 	 .img-smart{
 		width:100%;
 		height:300px;
 		background:url($telas);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
+		background-position: top;
+		
+	 }
+	 .img-smart2{
+		width:100%;
+		height:200px;
+		background:url($telasmobile);
+    background-repeat: no-repeat;
+    background-size: 100%;
 		background-position: top;
 		
 	 }
@@ -698,6 +711,19 @@ img {max-width:100%; }
 	 }
 	  .box-m{
 		 padding-left: 100px;
+		 padding-right: 180px;
+		 background-color: $vermelhoCine;
+		 padding-top: 80px;
+		 border-radius: 10px;
+		 box-shadow: 0px 3px 5px #333;
+	 }
+	 .st-ico{
+     font-size: 17px;
+		 font-family: $FontHeebo;
+		 color:$cinzamedio;
+		 padding:20px
+	 }.st-ico .col-6{
+		 margin-top: 20px;
 	 }
 	 .st-ico .fas{
 		 color: #27ae60;

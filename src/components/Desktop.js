@@ -35,30 +35,35 @@ const Desktop = props => {
                     <div className="tb-text">
                         <h6>DISPOSITIVOS</h6>
                         <hr></hr>
+                        
                     </div>
-                    <div className="row">
+                    <h2>O Melhor catálago. Em todas as telas.</h2>
+                    
+                    <div className="row box-telasapp">
                         <div className="col-5">
                             <div className="img-smart"></div>
                         </div>
                         <div className="col-7">
-                            <h2>O Melhor catálago. Em todas as telas.</h2>
+                        
                             <h6 className="txt-titulo1">Assista na TV</h6>
                             <div className="row st-ico">
                                 <div className="col-6"><i className="fas fa-check"></i> Smarts Tvs</div>
                                 <div className="col-6"><i className="fas fa-check"></i> Chromecast</div>
                                 <div className="col-6"><i className="fas fa-check"></i> Xbox One</div>
                             </div>
+                             </div>
                         </div>
-                        <div className="col-7 box-m"> 
+                    <div className="row box-m">
+                        <div className="col-7 "> 
                             <h6 className="txt-titulo1">Ou onde quiser</h6>
-                            <div className="row">
+                            <div className="row st-ico">
                             <div className="col-6"><i className="fas fa-check"></i> Android</div>
                             <div className="col-6"><i className="fas fa-check"></i> PC</div>
                             <div className="col-6"><i className="fas fa-check"></i> IOS</div>
                         </div>
                         </div>
                         <div className="col-5">
-                            <div className="img-smart"></div>
+                            <div className="img-smart2"></div>
                         </div>
                     </div>
                 </div>
