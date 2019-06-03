@@ -1,5 +1,17 @@
 # PROJETO TESTE LANDING PAGE TELECINE PLAY
 Esse projeto é constituido pera simplesmenteteste de Front-End usando ReactJS Sass Gulp 
+
+### INSTALAÇÃO
+
+ ```bash 
+ npm install
+```
+### STARTANDO EM MODO DESENVOLVIMENTO
+
+ ```bash 
+ npm start
+```
+
 ![](https://i.ibb.co/4KtP9wb/Sem-t-tulo.png)
 
 |   PARAMETROS                                        |   OBRIGATORIO                                                     |
@@ -8,7 +20,7 @@ Esse projeto é constituido pera simplesmenteteste de Front-End usando ReactJS S
 |      Sass                                          | ![](https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)       |
 |      Gulp                                         | ![](https://devstickers.com/assets/img/pro/e1bm.png)       |
 
-Em produção URL
+### URL DE PRODUÇÃO
 ```bash 
 URL https://telecine-lp.herokuapp.com/
 ```
